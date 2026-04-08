@@ -1,10 +1,4 @@
 
-/**
- * Lab activity of class GenericStaff .
- *
- * @author (Nicholas)
- * @version (8/6/2024)
- */
 import java.util.ArrayList;
 
 public class Staff {
