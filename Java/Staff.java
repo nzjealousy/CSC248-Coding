@@ -7,11 +7,12 @@
  */
 import java.util.ArrayList;
 
-public class GenericStaff {
+public class Staff {
 
     public static void main(String[] args) {
-        ArrayList staffList = new ArrayList();
-        Staff st = new Staff("Abu", "11222", "Finance");
+        ArrayList<Staff> staffList = new ArrayList<Staff>();
+        //ArrayList staffList = new ArrayList();
+        Staff st = new Staff();
         staffList.add(st);
         Staff st1 = (Staff) staffList.get(0);
     }
